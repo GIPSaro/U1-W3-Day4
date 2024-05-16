@@ -14,16 +14,14 @@ table {
   table-layout: fixed;
   margin: auto;
   border-collapse: collapse;
-  background-color: #b7e2e7;
 }
-#table2,
+table,
 th,
 td {
   background-color: #b7e2e7;
   border: 1px solid black;
-  font-size: 3rem;
+  padding-right: 15px;
 }
-
 button:hover {
   background-color: rgb(114, 169, 191);
 }
@@ -39,7 +37,7 @@ form button {
   min-height: 39px;
   font-weight: 700;
   font-family: "Amatic SC";
-  border-radius: 3px;
+  border-radius: 2px;
   font-size: 1rem;
 }
 #player-card {
@@ -48,4 +46,11 @@ form button {
 }
 tbody {
   display: inline-block;
+}
+
+.highlight {
+  background-color: yellow;
+}
+#tombola-board {
+  background-color: #208cb2;
 }
