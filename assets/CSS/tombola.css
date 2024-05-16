@@ -1,0 +1,51 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+  display: contents;
+}
+body {
+  margin: 0;
+  background-color: rgb(224, 220, 220);
+  font-family: "Amatic Sc", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+table {
+  table-layout: fixed;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #b7e2e7;
+}
+#table2,
+th,
+td {
+  background-color: #b7e2e7;
+  border: 1px solid black;
+  font-size: 3rem;
+}
+
+button:hover {
+  background-color: rgb(114, 169, 191);
+}
+form {
+  text-align: center;
+}
+form button {
+  cursor: pointer;
+  background-color: #208cb2;
+  color: #ffffff;
+  border: none;
+  width: 130px;
+  min-height: 39px;
+  font-weight: 700;
+  font-family: "Amatic SC";
+  border-radius: 3px;
+  font-size: 1rem;
+}
+#player-card {
+  display: inline-block;
+  margin: 0;
+}
+tbody {
+  display: inline-block;
+}
